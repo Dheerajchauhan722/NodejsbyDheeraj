@@ -1,0 +1,17 @@
+git status
+git init
+git status
+
+.gitignore  file which holds node_modules and .env in the root directory
+
+git add .
+git commit -m "comment"
+
+git remote add origin https://github.com (get this link from github repo)
+git push -u origin master
+
+after editing then uploading again====
+git add .
+git commit -m "comment"
+git push
+

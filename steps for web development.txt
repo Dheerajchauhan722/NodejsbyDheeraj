@@ -1,0 +1,67 @@
+1. first create a directory(folder) =>mkdir folder_name
+ => npm i nodemon
+2. go to that folder_name => cd folder_name
+3. create one src folder for holding app.js(main file) file =>mkdir src
+4. now install express in terminal => npm i express
+5. now do this to manage dependencies then press many enters=> npm init
+6. create a public inside folder_name => mkdir public
+7. Inside public create 2 files => type nul > index.html and type nul > about.html
+8. inside public add these folders => mkdir css and mkdir js
+9. inside css and js add files => style.css and main.js resp
+10. now in app.js for static website get path to public and call express.static(path_to_public)
+11. now always run app.js from src and your public index.html file runa by default all times when you use static website way from public
+12. so make html and css using bootstrap and font awesome
+13. 
+
+to use font awesome first link its cdn link
+website :  https://cdnjs.com/libraries/font-awesome/5.10.0
+link  :   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+
+to use bootstrap use the links :
+website : https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+16. later ue hbs engine for partials install it in main directory=> npm i hbs
+
+17. to use css in your .hbs inside views do this => create public and inside public add css/style.css then
+use this by using express.static thinking like html is also in public (related to path)
+
+
+RESTFUL API STARTING
+1.create any folder(main directory)
+2.then go inside that and do npm init -y (to initialise packages)
+3. npm i express (to install express packages)
+4. install nodejs,express, mongodb, mongoose, validator like above point go to npm.com to check how to install
+5. create app and other js files link them all
+
+MERNBACKEND
+1. create mernbackend folder and inside it do npm init
+2. install nodemon, nodejs,npm i jsonwebtoken,npm i dotenv,npm i bcrypt,express,hbs, mongodb, mongoose, validator like above point go to npm.com to check how to install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

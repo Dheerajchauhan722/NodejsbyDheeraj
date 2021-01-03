@@ -1,0 +1,14 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "simple weather api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dheeraj Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}
